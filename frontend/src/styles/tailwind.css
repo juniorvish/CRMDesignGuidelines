@@ -1,0 +1,59 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles for CRMDesignGuidelines */
+
+/* Dashboard styles */
+.dashboardContainer {
+  @apply bg-gray-100 p-4 rounded-lg shadow-md;
+}
+
+/* Customer profile styles */
+.customerProfileContainer {
+  @apply bg-white p-4 rounded-lg shadow-md;
+}
+
+/* Task management styles */
+.taskManagementContainer {
+  @apply bg-blue-100 p-4 rounded-lg shadow-md;
+}
+
+/* Communication center styles */
+.communicationCenterContainer {
+  @apply bg-green-100 p-4 rounded-lg shadow-md;
+}
+
+/* Reports and analytics styles */
+.reportAnalyticsContainer {
+  @apply bg-yellow-100 p-4 rounded-lg shadow-md;
+}
+
+/* General styles */
+.container {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  @apply bg-white overflow-hidden shadow rounded-lg;
+}
+
+.card-content {
+  @apply p-5;
+}
+
+.card-header {
+  @apply bg-white px-4 py-5 sm:px-6;
+}
+
+.card-footer {
+  @apply bg-white px-4 py-4 sm:px-6;
+}
+
+.card-title {
+  @apply text-lg leading-6 font-medium text-gray-900;
+}
+
+.card-subtitle {
+  @apply mt-1 text-sm text-gray-500;
+}
